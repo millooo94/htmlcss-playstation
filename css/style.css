@@ -1,0 +1,34 @@
+.first-section .container-fluid {
+    background-image: url("../img/jumbo-bg.png");
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 12rem;
+}
+
+.it-takes-two .container-fluid {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.first-section img {
+    min-width: 250px;
+}
+
+.first-section .row {
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+
+.section-1 .row div {
+    border: 3px solid red;
+}
+
+
+#first-card {
+    border-radius: 0 !important;
+}
+
