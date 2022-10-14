@@ -26,12 +26,12 @@
 /* Navbar */
 
 body {
-	margin-top: 90px;
+	margin-top: 75px;
 	/* background-color: salmon; */
 }
 
-nav . .container-fluid {
-    height: 20px;
+nav .container-fluid {
+    height: 45px;
 }
 
 .bar-sony {
