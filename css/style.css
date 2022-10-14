@@ -26,8 +26,12 @@
 /* Navbar */
 
 body {
-	margin-top: 111px;
+	margin-top: 90px;
 	/* background-color: salmon; */
+}
+
+nav . .container-fluid {
+    height: 20px;
 }
 
 .bar-sony {
@@ -65,11 +69,15 @@ body {
 }
 
 
+.header-page .navbar
 
-body {
-	margin-top: 111px;
-	/* background-color: salmon; */
+{
+    padding: 0;
+    background-color: #cd3d0f !important;
 }
+
+
+
 
 /* .first-section img {
     max-width: 100%;
