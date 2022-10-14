@@ -13,6 +13,10 @@
     background-repeat: no-repeat;
 }
 
+.new-release {
+    background-color: #1f1f1f;
+}
+
 .first-section img {
     min-width: 170px;
     
@@ -109,6 +113,10 @@ header .game-bar .img_card img {
     border-bottom: 2px solid black !important;
     border-radius: 0%;
     scale: .8;
+}
+
+.card {
+    background-color: transparent;
 }
 
 .it-takes-two  button {
