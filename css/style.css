@@ -22,6 +22,55 @@
     
 }
 
+
+/* Navbar */
+
+body {
+	margin-top: 111px;
+	/* background-color: salmon; */
+}
+
+.bar-sony {
+	height: 30px;
+}
+
+
+.dropdown {
+	position: static;
+}
+
+.dropdown-menu[data-bs-popper] {
+	width: 100%;
+	margin-top: 0;
+}
+
+.dropdown-menu {
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu.show {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.dropdown-item {
+	text-align: center;
+}
+
+.dropdown-item img {
+	display: block;
+	width: 100%;
+}
+
+
+
+body {
+	margin-top: 111px;
+	/* background-color: salmon; */
+}
+
 /* .first-section img {
     max-width: 100%;
    
@@ -79,6 +128,15 @@ footer .span {
 }
 
 
+
+
+
+
+
+
+
+
+
 /* First Section */
 
 header .game-chosen button {
@@ -112,7 +170,6 @@ header .game-bar .img_card img {
 .console-playstation .card {
     border-bottom: 2px solid black !important;
     border-radius: 0%;
-    scale: .8;
 }
 
 .card {
