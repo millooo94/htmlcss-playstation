@@ -1,47 +1,65 @@
-.game-chosen .container-fluid {
-    background-image: url("../img/jumbo-bg.png");
-    background-position-x: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 12rem;
+/* General Styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 80px;	
 }
 
-.it-takes-two .container-fluid {
-    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
-    background-position-x: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.my_h2 {
+    font-size: 1.9rem;
 }
 
-.new-release {
-    background-color: #1f1f1f;
+.my_h3 {
+    font-size: 1.6rem;
 }
 
-.first-section img {
-    min-width: 170px;
-    
+.my_text {
+    font-size: .8rem;
 }
+
+.my_text-1 {
+    font-size: .9rem;
+}
+
+.my_text-2 {
+    font-size: 1rem;
+}
+
+.my_btn {
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.grey-text {
+    color: #7a7a7a;
+}
+
+
+/* Header */
 
 
 /* Navbar */
 
-body {
-	margin-top: 75px;
-	/* background-color: salmon; */
+nav .container-fluid {
+    box-sizing: content-box;
+    height: 50px;
+    background-color: white;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
 }
 
-nav .container-fluid {
-    height: 45px;
-}
+
 
 .bar-sony {
 	height: 30px;
 }
 
-
 .dropdown {
 	position: static;
+    background-color: white;
 }
+
 
 .dropdown-menu[data-bs-popper] {
 	width: 100%;
@@ -53,10 +71,27 @@ nav .container-fluid {
 	border-radius: 0;
 }
 
+.dropdown-item {
+    gap: .5rem;
+    padding: .4rem
+}
+
+.dropdown-menu i {
+    font-size: .3rem;
+    color: #0275d8;
+}
+
+
+.show {
+    background-color: white;
+    width: 100%;
+}
+
 .dropdown-menu.show {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+    
 }
 
 .dropdown-item {
@@ -68,126 +103,378 @@ nav .container-fluid {
 	width: 100%;
 }
 
-
-.header-page .navbar
-
-{
+header .navbar{
     padding: 0;
-    background-color: #cd3d0f !important;
+    background-color: white;
+}
+
+.navbar .btn {
+    border: 2px solid transparent;
+    background-color: #363636;
+}
+
+.my-play-station {
+    margin-right: .5rem;
+}
+
+nav .lens {
+    width: 30px;
+}
+
+.navbar .li-button {
+    margin-right: .8rem;
+}
+
+.nav-link.dropdown-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link.dropdown-toggle::after {
+    display: none;
+}
+
+.nav-link.dropdown-toggle i {
+    font-size: .6rem;
+    margin-left: .3rem;  
+}
+
+.nav-link.dropdown-toggle.show i {
+    transform: rotate(180deg); 
+}
+
+.nav-link.dropdown-toggle.show i {
+    transform: rotate(180deg) translateY(10%); 
 }
 
 
-
-
-/* .first-section img {
-    max-width: 100%;
-   
-    min-width: 250px;
+nav .navbar-nav {
+    padding: .4rem 0 .4rem .4rem;
 }
 
-.first-section .row {
-    left: 0;
-    bottom: 0;
-    color: white;
-} */
+nav .li-button {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 
-
-
-#first-card {
-    border-radius: 0 !important;
 }
 
 
-.ps-plus {
-    background-color: sandybrown;
-}
-
-.ps-now {
-    background-color: blue;
-}
-
-footer {
-    background-color: blue;
-}
-
-footer .list {
-    gap: 2rem;
-}
-
-footer .span {
-    width:fit-content;
+.dropdown-item.up:hover {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
 
-
-
-/* General Styles */
-
-.my_h2 {
-    font-size: 1.7rem;
-}
-
-.my_text {
-    font-size: .7rem;
-}
-
-.my_text-1 {
-    font-size: .9rem;
+.dropdown-item.down:hover {
+    background-color: white;
 }
 
 
+.dropdown-item span:hover {
+    color: #0275d8;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    border: 2px solid white;
+    outline: 2px solid #363636;
+}
+
+a.nav-link {
+    color: #7a7a7a !important;
+}
+
+@media screen and (min-width: 992px) {
+    margin-top: 0;
+    
+}
 
 
+/* Returnal */
 
+header .returnal .bg-game {
+    background-image: url("../img/jumbo-bg.png");
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 12rem;
+}
 
+header .returnal .returnal-logo {
+    min-width: 170px;
+}
 
+header .returnal p {
+    font-weight: 500;
+}
 
-
-
-
-/* First Section */
-
-header .game-chosen button {
-
+header .returnal .btn {
+    border: 2px solid #cd3d0f;
     background-color: #cd3d0f;
-    color: white;
-    border-radius: 20px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 header .game-bar .img_card {
     padding: .11rem;
     border-radius: 20px;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 
 header .game-bar .img_card img {
     border-radius: 20px;
 }
 
-.console-playstation .my_h2 {
-    margin-top: -.2rem;
+.returnal .outlined {
+    border: 2px transparent;
+    outline: 2px solid #0275d8;
+    position: relative;  
+    z-index: 100;
 }
 
-.console-playstation button {
 
-    color: white;
-    border-radius: 20px !important;
-    font-weight: 600;
+.returnal button:hover {
+    border: 2px solid black;
+    outline: 2px solid #cd3d0f;
+}
+
+header .game-bar .img_card:hover {
+    transform: translateY(-15px);
+}
+
+/* Console PlayStation */
+
+.console-playstation .container {
+    padding-top: 4rem;
+}
+
+.console-playstation .my_h2 {
+    margin-top: -.2rem;
+    margin-bottom: 1rem;
+}
+
+.console-playstation .btn {
+    border: 2px solid #0275d8;
+    background-color: #0275d8;
+    font-weight: 500;
 }
 
 .console-playstation .card {
-    border-bottom: 2px solid black !important;
+    height: 100%;
     border-radius: 0%;
-}
-
-.card {
     background-color: transparent;
 }
 
-.it-takes-two  button {
-
-    background-color: #cd3d0f;
-    color: white;
-    border-radius: 20px;
-    font-weight: 600;
+.console-playstation .no-opa {
+    border-bottom: 2px solid #0275d8 !important;
+    cursor: pointer;
 }
+
+.console-playstation .opa {
+    filter: opacity(75%);
+    border-bottom: 2px solid transparent !important;
+}
+
+.console-playstation .btn:hover {
+    border: 2px solid white;
+    outline: 2px solid black;
+    color: white;
+}
+
+.console-playstation .opa:hover {
+    filter: opacity(100%);
+    border-bottom: 2px solid #0275d8 !important;
+    cursor: pointer; ;
+}
+
+
+
+/* It takes two */
+
+.it-takes-two .bg-game {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.it-takes-two p {
+    font-weight: 500;
+}
+
+.it-takes-two button {
+    background-color: #cd3d0f;
+    border: 2px solid #cd3d0f;
+    font-weight: 500;
+}
+
+.it-takes-two button:hover {
+    outline: 0;
+    border: 2px solid black;
+    outline: 2px solid #cd3d0f;
+    background-color: #cd3d0f;
+}
+
+
+
+/* New release */
+
+.new-release {
+    background-color: #1f1f1f;
+}
+
+.new-release .container-fluid {
+    padding-bottom: 3.5rem;
+}
+
+.new-release .card {
+    background-color: transparent;
+}
+
+.new-release .card-text {
+    margin-top: .5rem;
+}
+
+.new-release span {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.new-release .card-text {
+    font-weight: 500;
+}
+
+
+
+/* Esplora Playstation */
+
+.explore-playstation h4 {
+    font-size: 1.7rem;
+}
+
+.explore-playstation .btn {
+    border: 2px solid #0275d8;
+    background-color: #0275d8;
+    font-weight: 500;
+}
+
+.explore-playstation .btn:hover {
+    border: 2px solid white;
+    outline: 2px solid black;
+    color: white;
+}
+
+
+
+/* PlayStation Plus */
+
+.ps-plus {
+    background-color: #d9c6a0;
+}
+
+.ps-plus button {
+    background-color: #d9dbdd;
+    font-weight: 500;
+    border: 1px solid #d9dbdd;
+    
+    color: #0275d8;
+}
+
+.ps-plus .btn:hover {
+    border: 1px solid #d9dbdd;
+    outline: 2px solid #d9dbdd;
+    background-color: #d9dbdd;
+    color:#0275d8
+}
+
+
+
+@media screen and (min-width: 820px) {
+
+    .ps-plus button {
+        margin-bottom: -1rem;
+    }   
+}
+
+
+/* PlayStation Sales */
+
+.ps-sales .container {
+    margin-top: 3.8rem;
+    margin-bottom: 3.8rem;
+}
+
+
+
+/* PlayStation Now */
+
+.ps-now {
+    background-color: #161c3b;
+}
+
+.ps-now .btn {
+    font-weight: 500;
+    border: 2px solid white;
+}
+
+.ps-now .btn:hover {
+    border: 2px solid black;
+    outline: 2px solid white;
+}
+
+
+
+
+@media screen (min-width: 820px) {
+
+    .ps-now button {
+        margin-bottom: -1rem;
+    }   
+}
+
+
+/* PlayStation Social */
+
+.ps-social {
+    padding-bottom: 4rem ;
+    padding-top: 3rem ;
+}
+
+.ps-social h2 {
+    font-size: 1.7rem;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #00439c;
+}
+
+footer .container {
+    padding-top: 3.5rem ;
+}
+
+footer .globe {
+    width: 2.6%;
+    margin-right: .4rem;
+    max-width: 12px;
+}
+
+footer .list {
+    gap: 5rem;
+}
+
+footer .span {
+    width:fit-content;
+}
+
+footer ul {
+    line-height: 1.5rem;
+}
+
+footer .sony-interactive-logo {
+    max-width: 90px;
+}
+
