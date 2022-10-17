@@ -189,7 +189,11 @@ a.nav-link {
 }
 
 @media screen and (min-width: 992px) {
-    margin-top: 0;
+
+    nav .lens {
+        margin-top: 0;
+    }
+
     
 }
 
@@ -509,7 +513,6 @@ footer .globe {
 footer .list {
     gap: 5rem;
 }
-
 
 footer ul {
     line-height: 1.5rem;
