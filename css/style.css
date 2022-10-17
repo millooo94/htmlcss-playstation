@@ -28,7 +28,7 @@ body {
 .my_btn {
     color: white;
     border-radius: 20px;
-    font-weight: 600;
+    font-weight: 500 !important;
 }
 
 .grey-text {
@@ -209,7 +209,7 @@ header .returnal p {
 }
 
 header .returnal .btn {
-    border: 2px solid #cd3d0f;
+    border: 2px solid transparent;
     background-color: #cd3d0f;
     font-weight: 500;
 }
@@ -254,7 +254,7 @@ header .game-bar .img_card:hover {
 }
 
 .console-playstation .btn {
-    border: 2px solid #0275d8;
+    border: 2px solid transparent;
     background-color: #0275d8;
     font-weight: 500;
 }
@@ -304,7 +304,7 @@ header .game-bar .img_card:hover {
 
 .it-takes-two button {
     background-color: #cd3d0f;
-    border: 2px solid #cd3d0f;
+    border: 2px solid transparent;
     font-weight: 500;
 }
 
@@ -353,7 +353,7 @@ header .game-bar .img_card:hover {
 }
 
 .explore-playstation .btn {
-    border: 2px solid #0275d8;
+    border: 2px solid transparent;
     background-color: #0275d8;
     font-weight: 500;
 }
@@ -375,7 +375,7 @@ header .game-bar .img_card:hover {
 .ps-plus button {
     background-color: #d9dbdd;
     font-weight: 500;
-    border: 1px solid #d9dbdd;
+    border: 1px solid transparent;
     
     color: #0275d8;
 }
@@ -414,7 +414,7 @@ header .game-bar .img_card:hover {
 
 .ps-now .btn {
     font-weight: 500;
-    border: 2px solid white;
+    border: 2px solid transparent;
 }
 
 .ps-now .btn:hover {
