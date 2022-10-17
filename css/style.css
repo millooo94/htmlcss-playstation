@@ -116,6 +116,7 @@ header .navbar{
 
 nav .lens {
     width: 30px;
+    margin-top: .5rem;
 }
 
 .navbar .li-button {
