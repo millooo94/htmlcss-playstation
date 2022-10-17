@@ -36,6 +36,7 @@ body {
 }
 
 
+
 /* Header */
 
 
@@ -91,6 +92,7 @@ nav .container-fluid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+    width: 100%;
     
 }
 
@@ -112,6 +114,7 @@ header .navbar{
     border: 2px solid transparent;
     background-color: #363636;
 }
+
 
 .my-play-station {
     margin-right: .5rem;
@@ -155,7 +158,10 @@ nav .navbar-nav {
 nav .li-button {
     margin-top: .5rem;
     margin-bottom: .5rem;
+}
 
+ul.second-menu.navbar-nav {
+    padding-left: .6rem;
 }
 
 
@@ -176,6 +182,13 @@ nav .li-button {
 }
 
 .navbar button:hover {
+    border: 2px solid white;
+    outline: 2px solid #363636;
+}
+
+.navbar .btn:active {
+    background-color: #363636;
+    color: white;
     border: 2px solid white;
     outline: 2px solid #363636;
 }
@@ -216,7 +229,7 @@ header .returnal .btn {
 
 header .game-bar .img_card {
     padding: .11rem;
-    border-radius: 20px;
+    border-radius: 15px;
     transition-duration: .5s;
     transition-timing-function: ease-in-out;
 }
@@ -240,6 +253,11 @@ header .game-bar .img_card img {
 
 header .game-bar .img_card:hover {
     transform: translateY(-15px);
+}
+
+header .returnal .btn:active {
+    background-color: #cd3d0f;
+    color: white;
 }
 
 /* Console PlayStation */
@@ -287,6 +305,11 @@ header .game-bar .img_card:hover {
     cursor: pointer; ;
 }
 
+.console-playstation .btn:active {
+    background-color: #0275d8;
+    color: white;
+}
+
 
 
 /* It takes two */
@@ -309,6 +332,13 @@ header .game-bar .img_card:hover {
 }
 
 .it-takes-two button:hover {
+    outline: 0;
+    border: 2px solid black;
+    outline: 2px solid #cd3d0f;
+    background-color: #cd3d0f;
+}
+
+.it-takes-two .btn:active {
     outline: 0;
     border: 2px solid black;
     outline: 2px solid #cd3d0f;
@@ -364,6 +394,13 @@ header .game-bar .img_card:hover {
     color: white;
 }
 
+.explore-playstation .btn:active {
+    background-color:#0275d8;
+    border: 2px solid white;
+    outline: 2px solid black;
+    color: white;
+}
+
 
 
 /* PlayStation Plus */
@@ -376,7 +413,6 @@ header .game-bar .img_card:hover {
     background-color: #d9dbdd;
     font-weight: 500;
     border: 1px solid transparent;
-    
     color: #0275d8;
 }
 
@@ -385,6 +421,14 @@ header .game-bar .img_card:hover {
     outline: 2px solid #d9dbdd;
     background-color: #d9dbdd;
     color:#0275d8
+}
+
+
+.ps-plus .btn:active {
+    background-color: #d9dbdd;
+    color: #0275d8;
+    border: 1px solid #d9dbdd;
+    outline: 2px solid #d9dbdd;
 }
 
 
@@ -422,6 +466,12 @@ header .game-bar .img_card:hover {
     outline: 2px solid white;
 }
 
+.ps-now .btn:active {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    outline: 2px solid white;
+}
 
 
 
