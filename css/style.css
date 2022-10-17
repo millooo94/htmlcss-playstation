@@ -50,8 +50,6 @@ nav .container-fluid {
     padding-bottom: .6rem;
 }
 
-
-
 .bar-sony {
 	height: 30px;
 }
@@ -60,7 +58,6 @@ nav .container-fluid {
 	position: static;
     background-color: white;
 }
-
 
 .dropdown-menu[data-bs-popper] {
 	width: 100%;
@@ -82,7 +79,6 @@ nav .container-fluid {
     color: #0275d8;
 }
 
-
 .show {
     background-color: white;
     width: 100%;
@@ -92,8 +88,7 @@ nav .container-fluid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .dropdown-item {
@@ -114,7 +109,6 @@ header .navbar{
     border: 2px solid transparent;
     background-color: #363636;
 }
-
 
 .my-play-station {
     margin-right: .5rem;
@@ -150,7 +144,6 @@ nav .lens {
     transform: rotate(180deg) translateY(10%); 
 }
 
-
 nav .navbar-nav {
     padding: .4rem 0 .4rem .4rem;
 }
@@ -164,17 +157,14 @@ ul.second-menu.navbar-nav {
     padding-left: .6rem;
 }
 
-
 .dropdown-item.up:hover {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
-
 .dropdown-item.down:hover {
     background-color: white;
 }
-
 
 .dropdown-item span:hover {
     color: #0275d8;
@@ -201,6 +191,7 @@ a.nav-link {
     margin-top: 0;
     
 }
+
 
 
 /* Returnal */
@@ -235,7 +226,7 @@ header .game-bar .img_card {
 }
 
 header .game-bar .img_card img {
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .returnal .outlined {
@@ -244,7 +235,6 @@ header .game-bar .img_card img {
     position: relative;  
     z-index: 100;
 }
-
 
 .returnal button:hover {
     border: 2px solid black;
@@ -259,6 +249,8 @@ header .returnal .btn:active {
     background-color: #cd3d0f;
     color: white;
 }
+
+
 
 /* Console PlayStation */
 
@@ -423,7 +415,6 @@ header .returnal .btn:active {
     color:#0275d8
 }
 
-
 .ps-plus .btn:active {
     background-color: #d9dbdd;
     color: #0275d8;
@@ -439,6 +430,7 @@ header .returnal .btn:active {
         margin-bottom: -1rem;
     }   
 }
+
 
 
 /* PlayStation Sales */
@@ -481,6 +473,7 @@ header .returnal .btn:active {
         margin-bottom: -1rem;
     }   
 }
+
 
 
 /* PlayStation Social */
